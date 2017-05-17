@@ -25,7 +25,12 @@ module.exports = {
         "no-cond-assign": [2, "except-parens"],
         "quote-props": [2, "consistent-as-needed"],
         "newline-per-chained-call": 0,
-        "one-var-declaration-per-line": 0
+        "one-var-declaration-per-line": 0,
+        "no-bitwise": 0,
+        "no-mixed-operators": 0,
+        "no-underscore-dangle": 0,
+        "no-plusplus": 0,
+        "global-require": 0
     },
     parserOptions: {
         "ecmaVersion": 6,

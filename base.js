@@ -28,7 +28,9 @@ module.exports = {
         "arrow-body-style": [0, "always"], // should we enforce it?
         "no-bitwise": 0,
         "no-mixed-operators": 0,
-        "no-underscore-dangle": 0
+        "no-underscore-dangle": 0,
+        "no-plusplus": 0,
+        "global-require": 0
     },
     parserOptions: {
         "ecmaVersion": 6
