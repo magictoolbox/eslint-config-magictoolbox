@@ -25,7 +25,10 @@ module.exports = {
         "newline-per-chained-call": 0,
         "one-var-declaration-per-line": 0,
         "prefer-template": 0,
-        "arrow-body-style": [0, "always"] // should we enforce it?
+        "arrow-body-style": [0, "always"], // should we enforce it?
+        "no-bitwise": 0,
+        "no-mixed-operators": 0,
+        "no-underscore-dangle": 0
     },
     parserOptions: {
         "ecmaVersion": 6
